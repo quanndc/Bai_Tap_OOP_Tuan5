@@ -2,8 +2,7 @@ package Bai6;
 
 public class NgaySangThu {
 
-    public static void chuyenNgangSangThu(int ngay, int thang, int nam){
-
+    public static int chuyenNgangSangThu(int ngay, int thang, int nam){
         if(thang<3){
             thang = thang + 12;
             nam = nam - 1;
@@ -30,9 +29,9 @@ public class NgaySangThu {
                 break;
             case 6:
                 System.out.println("Saturday");
-                break;
+                break;  
         }
-
+        return result;
     }
     
 }

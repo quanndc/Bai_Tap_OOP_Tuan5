@@ -1,10 +1,9 @@
 package Bai6;
 
-
-public class NgayCuaMe {
+public class NgayCuaCha {
     private static int result = 0;
     private static int dayOfWeek = 7;
-    public static int timNgayCuaMe(int nam) {
+    public static int timNgayCuaCha(int nam) {
         // if (thang < 3) {
         //     thang = thang + 12;
         //     nam = nam - 1;
