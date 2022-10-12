@@ -9,34 +9,34 @@ public class NgayCuaCha {
         //     nam = nam - 1;
         //}
         
-        int check = Math.abs(1 + 2 * 5 + (3 * (5 + 1) / 5) + nam + nam / 4) % 7;
+        int check = Math.abs(1 + 2 * 6 + (3 * (6 + 1) / 5) + nam + nam / 4) % 7;
         switch (check) {
             case 0:
-                result = result + 1 + dayOfWeek;
+                result = result + dayOfWeek*2 + 1;
                 //System.out.println(result);
                 break;
             case 1:
-                result =  result + 1 + 6 + dayOfWeek;
+                result =  result + 7 + dayOfWeek*2;
                 //System.out.println(result);
                 break;
             case 2:
-                result =  result + 1 + 5 + dayOfWeek;
+                result =  result + 6 + dayOfWeek*2;
                 //System.out.println(result);
                 break;
             case 3:
-                result =  result + 1 + 4 + dayOfWeek;
+                result =  result + 5 + dayOfWeek*2;
                 //System.out.println(result);
                 break;
             case 4:
-                result =  result + 1 + 3 + dayOfWeek;
+                result =  result + 4 + dayOfWeek*2;
                 //System.out.println(result);
                 break;
             case 5:
-                result =  result + 1 + 2 + dayOfWeek;
+                result =  result + 3 + dayOfWeek*2;
                 //System.out.println(result);
                 break;
             case 6:
-                result =  result + 1 + 1 + dayOfWeek;
+                result =  result + 2 + dayOfWeek*2;
                 //System.out.println(result);
                 break;
         }
